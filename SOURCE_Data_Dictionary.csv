@@ -1,0 +1,41 @@
+Field Name,Description,File Type,Notes,Business Question
+id,contact id,both,unique identifier for both files (joining field),
+activity_new,category of the company's activity,,,
+campaign_disc_ele,code of the electricity campaign the customer last subscribed to,,,
+channel_sales,code of the sales channel,client data,,Q2
+cons_12m,electricity consumption of the past 12 months,client data,,Q1
+cons_gas_12m,gas consumption of the past 12 months,client data,,Q1
+cons_last_month,electricity consumption of the last month,client data,,Q1
+date_activ,date of activation of the contract,client data,,
+date_end,registered date of the end of the contract,client data,,
+date_first_activ,date of first contract of the client,,,
+date_modif_prod,date of last modification of the product,client data,,
+date_renewal,date of the next contract renewal,client data,,
+forecast_base_bill_ele,forecasted electricity bill baseline for next month,,,Q5
+forecast_base_bill_year,forecasted electricity bill baseline for calendar year,,,Q5
+forecast_bill_12m,forecasted electricity bill baseline for 12 months,,,Q5
+forecast_cons,forecasted electricity consumption for next month,,,Q1
+forecast_cons_12m,forecasted electricity consumption for next 12 months,client data,,Q1
+forecast_cons_year,forecasted electricity consumption for next calendar year,client data,,Q1
+forecast_discount_energy,forecasted value of current discount,client data,,"Q3, Q4"
+forecast_meter_rent_12m,forecasted bill of meter rental for the next 12 months,client data,,
+forecast_price_energy_p1,forecasted energy price for 1st period,,,"Q4, Q5"
+forecast_price_energy_p2,forecasted energy price for 2nd period,,,"Q4, Q5"
+forecast_price_pow_p1,forecasted power price for 1st period,,,"Q4, Q5"
+has_gas,indicated if client is also a gas client,client data,moderator?,
+imp_cons,current paid consumption,client data,,
+margin_gross_pow_ele,gross margin on power subscription,client data,,
+margin_net_pow_ele,net margin on power subscription,client data,,
+nb_prod_act,number of active products and services,client data,moderator?,
+net_margin,total net margin,client data,,
+num_years_antig,antiquity of the client (in number of years),client data,moderator?,
+origin_up,code of the electricity campaign the customer first subscribed to,client data,corrleation?,"Q1, Q2"
+pow_max,subscribed power,client data,,Q1
+price_date,reference date,price data,,
+price_p1_var,price of energy for the 1st period,,,"Q4, Q5"
+price_p2_var,price of energy for the 2nd period,,,"Q4, Q5"
+price_p3_var,price of energy for the 3rd period,,,"Q4, Q5"
+price_p1_fix,price of power for the 1st period,,,"Q4, Q5"
+price_p2_fix,price of power for the 2nd period,,,"Q4, Q5"
+price_p3_fix,price of power for the 3rd period,,,"Q4, Q5"
+churn,has the client churned over the next 3 months,client data,,"Q2, Q3, Q4"
